@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <!--IMPORT BOOTSTRAP-->
+    <link rel="stylesheet" href="Bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-1"
+      >
+        <div class="container">
+          <img class="navbar-brand" src="Immagini/logo.png" alt="logo" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Laptop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Macbook M3 Max</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Msi Stealth 15</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Asus Rog Zephyrus 14</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Smartphone
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Samsung S24 Ultra</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Iphone 15 Pro Max</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Pixel 8 Pro</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Tablet</a>
+              </li>
+              <form class="d-flex ms-5" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-dark" type="submit">Search</button>
+              </form>
+            </ul>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-bag"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                /></svg
+            ></a>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-person"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"
+                /></svg
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container my-5">
+        <h1 class="text-center">Creative Technology</h1>
+      </div>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item wactive">
+            <img src="Immagini/tablet.png" class="image w-100" alt="tablet" />
+            <div class="carousel-caption">
+              <div id="card h-md-25" class="card">
+                <div id="card-body" class="card-body">
+                  <h2 id="card-title" class="card-title">Tablet</h2>
+                  <p id="card-text" class="card-text">
+                    Con uno schermo ampio e luminoso, questo tablet ti permette
+                    di immergerti in un mondo di intrattenimento, lavoro e
+                    creatività senza limiti.
+                  </p>
+                  <a href="#" class="btn btn-primary">Acquista</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img
+              src="Immagini/laptop.png"
+              class="image d-block w-100"
+              alt="laptop"
+            />
+            <div class="carousel-caption">
+              <div id="card" class="card">
+                <div id="card-body" class="card-body">
+                  <h2 id="card-title" class="card-title">Laptop</h2>
+                  <p id="card-text" class="card-text">
+                    Con un design elegante e raffinato, questo laptop è
+                    progettato per adattarsi al tuo stile di vita dinamico,
+                    offrendoti prestazioni di livello superiore in ogni
+                    situazione.
+                  </p>
+                  <a href="#" class="btn btn-primary">Acquista</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img
+              src="Immagini/smartphone.png"
+              class="image d-block w-100"
+              alt="smartphone"
+            />
+            <div class="carousel-caption">
+              <div id="card" class="card">
+                <div id="card-body" class="card-body">
+                  <h2 id="card-title" class="card-title">Smartphone</h2>
+                  <p id="card-text" class="card-text">
+                    Con un design elegante e prestazioni avanzate, questo
+                    dispositivo si integra perfettamente nel tuo stile di vita,
+                    consentendoti di rimanere connesso, produttivo ed
+                    intrattenuto come mai prima d'ora.
+                  </p>
+                  <a href="#" class="btn btn-primary">Acquista</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container">
+        <h2 class="text-center my-5">I migliori smartphone</h2>
+        <div class="d-flex justify-content-center text-center my-5">
+          <div class="row gx-5">
+            <div class="col">
+              <div id="carta" class="card" style="width: 18rem">
+                <img src="Immagini/s24.png" class="card-img-top" alt="s24" />
+                <div id="corpo" class="card-body">
+                  <h2 class="card-title">Samsung S24 Ultra</h2>
+                  <p class="card-text">
+                    Ti diamo il benvenuto nell’era dell’AI sullo smartphone. Con
+                    Galaxy S24 Ultra nelle tue mani, puoi sperimentare livelli
+                    di creatività e produttività mai raggiunti prima e aprirti a
+                    nuove possibilità.
+                  </p>
+                  <a href="#" class="btn btn-primary">Acquista</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div id="carta" class="card" style="width: 18rem">
+                <img
+                  src="Immagini/iphone15.png"
+                  class="card-img-top"
+                  alt="iphone15"
+                />
+                <div id="corpo" class="card-body">
+                  <h2 class="card-title">Iphone 15 Pro Max</h2>
+                  <p class="card-text">
+                    Forgiato nel titanio, con chip A17 Pro, tasto Azione
+                    personalizzabile e il più potente sistema di fotocamere mai
+                    visto su un iPhone.
+                  </p>
+                  <a href="#" class="btn btn-primary">Acquista</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div id="carta" class="card" style="width: 18rem">
+                <img
+                  src="Immagini/pixel.png"
+                  class="card-img-top"
+                  alt="pixel"
+                />
+                <div id="corpo" class="card-body">
+                  <h2 class="card-title">Pixel 8 Pro</h2>
+                  <p class="card-text">
+                    Uno degli smartphone Android più avanzati e completi
+                    disponibili sul mercato, grazie alla ricca dotazione e
+                    all'elevata multimedialità.
+                  </p>
+                  <a href="#" class="btn btn-primary">Acquista</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="text-center my-5">I migliori laptop</h2>
+        <div class="d-flex justify-content-center text-center my-5">
+          <div class="row gx-5">
+            <div class="col">
+              <div id="carta" class="card" style="width: 18rem">
+                <img
+                  src="Immagini/macbook.png"
+                  class="card-img-top"
+                  alt="s24"
+                />
+                <div id="corpo" class="card-body">
+                  <h2 class="card-title">Macbook M3 Max</h2>
+                  <p class="card-text">
+                    Laptop di ultima generazione prodotto da Apple, che offre
+                    prestazioni elevate e un design elegante. Dotato di un
+                    processore M3 potente e efficiente, garantisce una fluida
+                    esperienza di utilizzo per le attività quotidiane e
+                    multitasking intensivo.
+                  </p>
+                  <a href="#" class="btn btn-primary">Acquista</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div id="carta" class="card" style="width: 18rem">
+                <img
+                  src="Immagini/msi.png"
+                  class="card-img-top"
+                  alt="iphone15"
+                />
+                <div id="corpo" class="card-body">
+                  <h2 class="card-title">Msi Stealth 15</h2>
+                  <p class="card-text">
+                    Laptop all'avanguardia progettato per gli appassionati di
+                    gaming e professionisti che richiedono prestazioni elevate
+                    in un pacchetto sottile e leggero. Equipaggiato con un
+                    potente processore e scheda grafica dedicata.
+                  </p>
+                  <a href="#" class="btn btn-primary">Acquista</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div id="carta" class="card" style="width: 18rem">
+                <img src="Immagini/asus.png" class="card-img-top" alt="pixel" />
+                <div id="corpo" class="card-body">
+                  <h2 class="card-title">Asus Rog Zephyrus 14</h2>
+                  <p class="card-text">
+                    Uno degli smartphone Android più avanzati e completi
+                    disponibili sul mercato, grazie alla ricca dotazione e
+                    all'elevata multimedialità.
+                  </p>
+                  <a href="#" class="btn btn-primary">Acquista</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark">
+      <div class="container text-center">
+        <p>
+          © 2024 Creative Technology | Made by
+          <a href="https://www.linkedin.com/in/alessandro-marcosano-045471302/"
+            >Alessandro Marcosano</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!--IMPORT BOOTSTRAP-->
+    <script src="Bootstrap/bootstrap.bundle.js"></script>
+  </body>
+</html>

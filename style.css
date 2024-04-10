@@ -1,0 +1,27 @@
+.navbar-brand{
+    width: 100px;
+}
+
+#card-body, #card{
+    border: none;
+    background-color: rgb(0 0 0 / 10%);
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+}
+#card-text, #card-title{
+    color: white;
+}
+.card-img-top{
+    border-radius: 150px;
+    border: 1px solid rgb(147, 147, 147);
+}
+#corpo, #carta{
+    height: 700px;
+    padding: 20px;
+    border: none;
+    background-color: rgb(237, 237, 237);
+    border-radius: 50px;
+}
+footer p{
+    color: white;
+}
